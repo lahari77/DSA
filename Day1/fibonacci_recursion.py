@@ -9,3 +9,4 @@ print(fibonacci(8))
 print(fibonacci(0))
 print(fibonacci(-2))
 print(fibonacci(2.5))
+
