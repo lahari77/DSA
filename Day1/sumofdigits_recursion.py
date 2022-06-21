@@ -10,3 +10,4 @@ print(sumOfDigits(22))
 print(sumOfDigits(134))
 print(sumOfDigits(-34))
 print(sumOfDigits(2.33))
+
