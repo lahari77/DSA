@@ -11,10 +11,8 @@ print(searchElement(arr1, 3))
 print(searchElement(arr1, 6))
 print(searchElement(arr1, 7))
 
-<<<<<<< HEAD
+
 # Deleting elements
-=======
->>>>>>> c382f53041190c3b1ae94c85bb1a195d02747f63
 arr2 = [1,2,3,4,5,6]
 arr2.remove(1)
 print(arr2)
