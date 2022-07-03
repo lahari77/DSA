@@ -20,3 +20,4 @@ arr2.remove(6)
 print(arr2)
 arr2.remove(4)
 print(arr2)
+

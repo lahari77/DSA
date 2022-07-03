@@ -69,3 +69,4 @@ print(my_array[:4])
 print(my_array[:])
 print(my_array[1:-1])
 print(my_array[::-1])
+
