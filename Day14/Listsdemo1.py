@@ -1,8 +1,4 @@
 # Integers
-from distutils.ccompiler import show_compilers
-from hashlib import new
-
-
 integers = [1, 2, 3, 4]
 print(integers)
 # Strings
