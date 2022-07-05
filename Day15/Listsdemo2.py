@@ -87,3 +87,16 @@ myList = [3, 1, 2]
 myList1 = sorted(myList)
 print(myList)
 print(myList1)
+
+# Arrays vs Lists
+#  1. for computations use arrays
+import numpy as np
+myArray = np.array([1, 2, 3, 4, 5, 6])
+myList = [1, 2, 3, 4, 5, 6]
+print(myArray/2) # [0.5 1.  1.5 2.  2.5 3. ]
+# print(myList/2) #error
+# list - support diff data, arrray support same data
+myArray = np.array([1, 2, 3, 4, 5, 'a'])
+myList = [1, 2, 3, 4, 5, 'a']
+print(myArray) # ['1' '2' '3' '4' '5' 'a']
+print(myList) # [1, 2, 3, 4, 5, 'a']
