@@ -50,3 +50,40 @@ while(True):
     average = sum(myList)/len(myList)
 print('Average: ', average)
 
+# Lists & Strings
+a = 'spam'
+b = list(a)
+print(b)
+a = 'spam spam spam'
+b = a.split()
+print(b)
+a = 'spam*spam*spam'
+b = a.split('*')
+print(b)
+a = '#'.join(b)
+print(a)
+
+# Common pitfalls
+myList = [3, 1, 2]
+myList = myList.sort()
+print(myList) # prints None
+# 
+myList = [3, 1, 2]
+myList.append(10)
+print(myList)
+myList = [3, 1, 2]
+myList + [10]
+print(myList)
+# may mix as
+myList = [3, 1, 2]
+myList.append([10])
+print(myList)
+# sort() modify original - no copy maintained
+myList = [3, 1, 2]
+myList.sort()
+print(myList)
+# sorted() doesn't modify original - copy maintained
+myList = [3, 1, 2]
+myList1 = sorted(myList)
+print(myList)
+print(myList1)
